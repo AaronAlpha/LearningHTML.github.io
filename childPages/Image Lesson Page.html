@@ -23,21 +23,31 @@
         <header>Steps in building an Image</header>
         <ul>
             <li>Pick an image (careful of the file extension in the url)
-            <li>Record the URL, cite it, comment for the data accessed, and record the original dimensions 
+            <li>Record the URL, cite it, comment for the data accessed, and record the original dimensions (i.e. aspect ratio)
+            <li>Note: opening in a new tab will eventually provide a http or https URL with a file extension 
             <li>Use blockquote and comment as appropriate 
             <li>use img-tag with attributes src, alt, title, and style with width-height
+            <li>compare the same image with 2 sizes of viewport (25% and 100%)
         </ul>
         
     </section>
 
     <section>
-        <header>Example Image</header>
-        <blockquote>
+        <header>Example Image, 25% of the screen, sourced outside of the computer</header>
+        <blockquote cite = "C:\Users\aaron\OneDrive\Pictures\Car pics\Subaru Impereza 22B prodrive 2022.jpg">
             <!-- Date accessed 20220708-->
+            <!-- Width: 1920 Height: 1080 -->
         </blockquote>
+        <img src = "C:\Users\aaron\OneDrive\Pictures\Car pics\Subaru Impereza 22B prodrive 2022.jpg" alt = "" title = "Subaru Impereza 22B prodrive 2022" style = "width: 25%; height: auto">
+    </section>
 
-
-        <article><p>This is a paragraph tag inside a section-article</p></article>
+    <section>
+        <header>Example Image, 25% of the screen, sourced incside of the computer</header>
+        <blockquote cite = "C:\Users\aaron\OneDrive\Pictures\Car pics\Subaru Impereza 22B prodrive 2022.jpg">
+            <!-- Date accessed 20220708-->
+            <!-- Width: 1920 Height: 1080 -->
+        </blockquote>
+        <img src = "C:\Users\aaron\OneDrive\Pictures\Car pics\Subaru Impereza 22B prodrive 2022.jpg" alt = "" title = "Subaru Impereza 22B prodrive 2022" style = "width: 100%; height: auto">
     </section>
 
 </body>
